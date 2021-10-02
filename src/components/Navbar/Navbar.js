@@ -8,27 +8,35 @@ import "../../assets/css/navbar.css";
 
 function Navbar(props) {
   return (
-    <nav className="navbar">
-      <img src={Logo} alt="logo" />
-      <div className="navbar navbar_elements">
-        {MenuItems.map((item, index) => (
-          <p className={item.cName}>{item.title}</p>
-        ))}
-      </div>
-      <div
-        style={{
-          justifyContent: "space-between",
-        }}
-      >
-        <div className="navbar navbar_elements">
-          <p className="navLink">Sign Up</p>
-          <div className="button_container">
-            <p className="login_text">Log In</p>
+    <div>
+      {window.innerWidth > 1080 ? (
+        <nav className="navbar">
+          <img src={Logo} alt="logo" />
+          <div className="navbar navbar_elements">
+            {MenuItems.map((item, index) => (
+              <p className={item.cName}>{item.title}</p>
+            ))}
           </div>
-        </div>
-      </div>
-      {/* <Burger /> */}
-    </nav>
+          <div
+            style={{
+              justifyContent: "space-between",
+            }}
+          >
+            <div className="navbar navbar_elements">
+              <p className="navLink">Sign Up</p>
+              <div className="button_container">
+                <p className="login_text">Log In</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      ) : (
+        <nav className="navbar">
+          <img src={Logo} alt="logo" />
+          <Burger />
+        </nav>
+      )}
+    </div>
   );
 }
 export default Navbar;

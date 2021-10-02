@@ -20,21 +20,21 @@ export default function footer() {
         </div>
         <div className="footer_columns">
           <p className="footer_header">Information</p>
-          <p className="footer_text">About Us</p>
-          <p className="footer_text">Contact Us</p>
-          <p className="footer_text">Terms & Conditions</p>
+          <p className="footer_text foot_link">About Us</p>
+          <p className="footer_text foot_link">Contact Us</p>
+          <p className="footer_text foot_link">Terms & Conditions</p>
         </div>
         <div className="footer_columns">
           <p className="footer_header">Job Seekers</p>
-          <p className="footer_text">Create Account</p>
-          <p className="footer_text">Job List</p>
-          <p className="footer_text">FAQ</p>
+          <p className="footer_text foot_link">Create Account</p>
+          <p className="footer_text foot_link">Job List</p>
+          <p className="footer_text foot_link">FAQ</p>
         </div>
         <div className="footer_columns">
           <p className="footer_header">Employers</p>
-          <p className="footer_text">Create Account</p>
-          <p className="footer_text">Post Jobs</p>
-          <p className="footer_text">FAQ</p>
+          <p className="footer_text foot_link">Create Account</p>
+          <p className="footer_text foot_link">Post Jobs</p>
+          <p className="footer_text foot_link">FAQ</p>
         </div>
         <div className="footer_columns">
           <p className="footer_header">Social Media:</p>

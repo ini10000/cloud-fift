@@ -22,6 +22,10 @@
   width: 24.4rem;
   margin-bottom: 1.5rem;
 }
+.foot_link:hover {
+  cursor: pointer;
+  color: #09642a;
+}
 .footer_header {
   font-family: "GTWalsheimPro";
   font-size: 1.7rem;

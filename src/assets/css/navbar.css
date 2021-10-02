@@ -1,16 +1,12 @@
 .navbar {
+  margin: 0.5rem 6rem;
+}
+.navbar_elements {
+  font-family: "Graphik";
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5rem 6rem;
-}
-@media only screen and (max-width: 1080px) {
-  .navbar {
-    display: none
-  }
-.navbar_elements {
-  font-family: "Graphik";
 }
 .navLink {
   margin: 0 2rem;

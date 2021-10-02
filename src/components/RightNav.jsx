@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import "../assets/css/navbar.css";
 
 import MenuItems from "./Navbar/MenuItems";
 
@@ -54,15 +55,16 @@ const RightNav = ({ open }) => {
       {MenuItems.map((item, index) => (
         <li key={index}>
           <p className="navLink">{item.title} Up</p>
-          <a target="blank" className="burgerText" href={item.url}>
-            {item.title}
-          </a>
         </li>
       ))}
-      <p className="navLink">Sign Up</p>
-      <div className="button_container">
-        <p className="login_text">Log In</p>
-      </div>
+      <li>
+        <p className="navLink">Sign Up</p>
+      </li>
+      <li>
+        <div className="button_container">
+          <p className="login_text">Log In</p>
+        </div>
+      </li>
     </Ul>
   );
 };
