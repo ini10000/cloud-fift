@@ -1,0 +1,38 @@
+.companies_container {
+  background-color: rgba(6, 148, 42, 0.05);
+  display: flex;
+  padding: 4rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14.3rem;
+}
+
+.companies_header {
+  font-family: "GTWalsheimPro";
+  font-size: 3.4rem;
+  color: #3f403f;
+  font-weight: bold;
+  line-height: 5rem;
+}
+
+.companies_text {
+  font-family: "Graphik";
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: #3f403f;
+  width: 50rem;
+}
+.learn_more {
+  font-family: "Graphik";
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #06942a;
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.learn_more:hover {
+  cursor: pointer;
+}

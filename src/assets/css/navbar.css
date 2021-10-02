@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 6rem;
+}
+@media only screen and (max-width: 1080px) {
+  .navbar {
+    display: none
+  }
+.navbar_elements {
+  font-family: "Graphik";
+}
+.navLink {
+  margin: 0 2rem;
+  color: #3f403f;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+.navLink:hover {
+  cursor: pointer;
+  color: #06942a;
+}
+.button_container {
+  background-color: rgba(6, 148, 42, 0.2);
+  color: #06942a;
+  padding: 1rem 5.5rem;
+  border-radius: 5rem;
+  font-family: "Graphik";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_text {
+  margin: 0;
+  font-size: 1.5rem;
+}

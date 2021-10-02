@@ -1,0 +1,46 @@
+.customers_container {
+  display: flex;
+  flex-direction: row;
+}
+.customers_header {
+  font-family: "GTWalsheimPro";
+  font-size: 3.4rem;
+  color: #3f403f;
+  font-weight: bold;
+  line-height: 5.1rem;
+  margin-top: 14.3rem;
+  margin-bottom: 5rem;
+}
+.testimony_container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  width: 60%;
+}
+.customer_text {
+  font-family: "Graphik";
+  font-size: 1.7rem;
+  color: #3f403f;
+  line-height: 3.4rem;
+  width: 63.2rem;
+}
+.customer_name {
+  font-family: "GTWalsheimPro";
+  font-size: 2rem;
+  color: #3f403f;
+  font-weight: bold;
+  line-height: 2.2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.sign {
+  position: absolute;
+  z-index: -2;
+  top: 429rem;
+}
+.customer_position {
+  font-family: "Graphik";
+  font-size: 2rem;
+  color: #9b9b9b;
+  line-height: 2.1rem;
+}

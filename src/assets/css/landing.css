@@ -1,0 +1,77 @@
+.landing_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.landing_header {
+  font-family: "GTWalsheimPro";
+  font-size: 4.5rem;
+  color: #3f403f;
+  font-weight: bold;
+  line-height: 5.2rem;
+}
+.landing_span {
+  color: #06942a;
+}
+.landing_description {
+  font-family: "Graphik";
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #3f403f;
+  width: 52rem;
+}
+.landing_sub {
+  font-weight: bold;
+}
+.landing_trustees {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+.search_box {
+  width: 50.4rem;
+  height: 4.5rem;
+  font-family: "Graphik";
+  font-size: 1.3rem !important;
+  color: #9b9b9b !important;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  box-shadow: 0px 1rem 3rem rgba(6, 148, 42, 0.04);
+  border-radius: 5rem;
+}
+#search::placeholder,
+#location::placeholder {
+  font-size: 1.3rem !important;
+  color: #9b9b9b !important;
+  position: relative;
+  top: 0.2rem;
+}
+#search {
+  text-indent: 1.5rem;
+  border-radius: 5rem 0 0 5rem;
+  width: 28.1rem;
+}
+#location {
+  background-image: url("../images/map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 1.5rem;
+  width: 16.8rem;
+  padding: 0.5rem 2.8rem;
+  transition: 0.3s;
+}
+#location:focus {
+  background-image: none;
+  text-indent: 0px;
+}
+.search_button {
+  border-radius: 0 5rem 5rem 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #06942a !important;
+}

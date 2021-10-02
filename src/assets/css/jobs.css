@@ -1,0 +1,120 @@
+.jobs_header {
+  font-family: "GTWalsheimPro";
+  font-size: 3.4rem;
+  color: #3f403f;
+  font-weight: bold;
+  line-height: 3.9rem;
+  margin-top: 25.2rem;
+  margin-bottom: 5.2rem;
+}
+.jobs_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.job_card {
+  background: #ffffff;
+  box-shadow: 0px 1rem 3rem rgba(6, 148, 42, 0.05);
+  border-radius: 5px;
+  height: 33.5rem;
+  width: 30rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.job_description {
+  padding: 1.8rem;
+  height: 21.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.job_pill_container {
+  display: flex;
+  justify-content: flex-end !important;
+}
+.job_pill {
+  padding: 0.4rem 2.1rem !important;
+  background: #f4f5f9;
+  border-radius: 5rem;
+  margin: 0;
+  color: #9b9b9b;
+  font-family: "Graphik";
+  font-size: 1.1rem;
+}
+.job_title_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+.job_title {
+  margin: 0;
+  color: #3f403f;
+  font-family: "Graphik";
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+}
+.job_footer {
+  padding: 1.8rem;
+  height: 11.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.job_card_footer,
+.job_location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.company_name {
+  margin: 0.8rem;
+  color: #3f403f;
+  font-family: "Graphik";
+  font-size: 1.7rem;
+  line-height: 3.4rem;
+}
+.job_card_footer {
+  justify-content: space-between;
+}
+.location_text {
+  margin: 0;
+  color: #3f403f;
+  font-family: "Graphik";
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+}
+.apply_now {
+  margin: 0;
+  color: #06942a;
+  font-family: "Graphik";
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+.apply_now:hover {
+  padding: 0.4rem 1.4rem !important;
+  background: rgba(6, 148, 42, 0.2);
+  border-radius: 3rem;
+  margin: 0;
+  color: #9b9b9b;
+  cursor: pointer;
+}
+.arrow_container {
+  margin: 3.5rem 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+.arrows {
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+  justify-content: space-around;
+}
+.arrows:hover {
+  cursor: pointer;
+}

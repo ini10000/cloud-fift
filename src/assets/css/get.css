@@ -1,0 +1,43 @@
+.started_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12.6rem;
+}
+.started_image {
+  position: absolute;
+  z-index: -2;
+}
+.started_text {
+  position: relative;
+  left: 17rem !important;
+  top: -26rem;
+}
+.started_heading {
+  font-family: "GTWalsheimPro";
+  font-size: 4.6rem;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 150%;
+}
+.started_description {
+  font-family: "Graphik";
+  font-size: 1.4rem;
+  color: #ffffff;
+  line-height: 150%;
+  margin: 0;
+}
+.get_started {
+  margin-top: 2rem;
+  background: #06942a;
+  box-shadow: 0px 1rem 3rem rgba(6, 148, 42, 0.12);
+  border-radius: 5rem;
+  width: 21.7rem;
+  height: 5rem;
+  position: relative;
+  top: -26rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
