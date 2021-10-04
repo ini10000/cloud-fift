@@ -10,8 +10,13 @@ export default function customers() {
   return (
     <div>
       <h1 className="customers_header">What are our customers saying</h1>
-      <div className="customers_container">
-        <div>
+      <div
+        style={{
+          justifyContent: window.innerWidth < 1080 ? "center" : "space-between",
+        }}
+        className="customers_container"
+      >
+        <div className="customer_image">
           <img src={Man4} alt="man" />
         </div>
         <div className="testimony_container">

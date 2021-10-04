@@ -25,7 +25,7 @@ export default function companies() {
           <img src={Right} alt="right" width={20} />
         </p>
       </div>
-      <div>
+      <div className="company_logos">
         <img src={Logos} alt="logos" />
       </div>
     </div>

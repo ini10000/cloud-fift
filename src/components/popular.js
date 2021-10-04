@@ -57,7 +57,12 @@ export default function popular() {
   return (
     <div>
       <h1 className="jobs_header category_header">Popular Categories</h1>
-      <div className="categories">
+      <div
+        className="categories"
+        style={{
+          justifyContent: window.innerWidth < 1080 ? "center" : "space-between",
+        }}
+      >
         {categories.map((item, key) => (
           <div className="category_card">
             <img src={item.logo} alt="oil" />

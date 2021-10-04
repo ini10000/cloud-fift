@@ -1,6 +1,6 @@
 .started_container {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   margin-top: 12.6rem;

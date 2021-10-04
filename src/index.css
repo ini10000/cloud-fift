@@ -22,7 +22,8 @@ code {
   position: absolute;
   z-index: -2;
   top: 0;
-  width: 95rem !important;
+  flex: 1;
+  max-width: 100% !important;
 }
 
 @font-face {

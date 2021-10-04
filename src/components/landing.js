@@ -11,7 +11,7 @@ import Search from "../assets/svg/search.svg";
 export default function landing() {
   return (
     <div className="landing_container">
-      <div>
+      <div className="landing_left">
         <div>
           <h1 className="landing_header">
             Find a <span className="landing_span">job</span> easily
@@ -48,7 +48,7 @@ export default function landing() {
           </div>
         </div>
       </div>
-      <img src={Man} alt="man1" width={520} />
+      <img className="landing_right" src={Man} alt="man1" width={520} />
     </div>
   );
 }

@@ -44,7 +44,12 @@ export default function jobs() {
   return (
     <div>
       <h1 className="jobs_header">Recommended Jobs</h1>
-      <div className="jobs_container">
+      <div
+        className="jobs_container"
+        style={{
+          justifyContent: window.innerWidth < 1080 ? "center" : "space-between",
+        }}
+      >
         {jobs_list.map((item, key) => (
           <div key={key} className="job_card">
             <div className=" job_description">
